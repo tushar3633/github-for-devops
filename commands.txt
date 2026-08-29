@@ -1,0 +1,16 @@
+   git init
+   git status
+   git add testing.py
+   git rm --cache testing.py
+   git add .
+   git commit -m "added testing files"
+   git restore testing.py
+   git status
+   git add git_commands.txt
+   git status
+   git commit -m "added git_commands.txt"
+   git remote add origin https://github.com/tushar3633/github-for-devops
+   git remote -v
+   git remote set-url origin git@github.com:tushar3633/github-for-devops.git
+   git remote -v
+   git push origin master
