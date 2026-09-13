@@ -1,1 +1,8 @@
-print("Git and github workshop")
+def hello():
+    '''
+    this is demo
+    '''
+    return "Hello"
+
+
+hello()
